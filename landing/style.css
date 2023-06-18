@@ -1,0 +1,11 @@
+.navbar-logo {
+    height: 50px;
+    width: auto;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    flex-direction: row-reverse;
+}

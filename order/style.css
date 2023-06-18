@@ -15,7 +15,7 @@ header, main, footer {
     padding: 20px;
 }
 
-#payment-form {
+#order-form {
     max-width: 400px;
     margin: 0 auto;
 }
@@ -29,9 +29,13 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], select {
+input[type="text"], input[type="email"], select, textarea {
     width: 100%;
     padding: 10px;
+}
+
+textarea {
+    height: 100px;
 }
 
 button[type="submit"] {
@@ -46,3 +50,9 @@ button[type="submit"] {
     cursor: pointer;
 }
 
+footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    padding: 10px;
+}
